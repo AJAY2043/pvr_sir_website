@@ -1,0 +1,99 @@
+/* MyInstitute.css */
+
+.institute-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.institute-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.institute-title {
+  font-size: 2.5rem;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.institute-description {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.institute-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.detail {
+  flex: 1 1 300px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.detail p, .detail ul {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.detail ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.detail li {
+  margin-bottom: 10px;
+}
+
+.contact-email {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-email:hover {
+  text-decoration: underline;
+}
+
+.institute-video {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.institute-video iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border: none;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .institute-title {
+    font-size: 2rem;
+  }
+
+  .institute-description {
+    font-size: 1rem;
+  }
+
+  .detail {
+    flex: 1 1 100%;
+  }
+}

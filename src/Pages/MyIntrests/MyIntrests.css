@@ -1,0 +1,92 @@
+/* MyInterests.css */
+
+.interests-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.interests-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.interests-title {
+  font-size: 2.5rem;
+  color: #00796b;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.interests-description {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.interests-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.interest {
+  flex: 1 1 calc(33.333% - 40px);
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.interest-icon {
+  margin-bottom: 15px;
+}
+
+.interest h2 {
+  font-size: 1.8rem;
+  color: #00796b;
+  margin-bottom: 10px;
+}
+
+.interest p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.interest ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+.interest li {
+  margin-bottom: 10px;
+}
+
+.interest a {
+  color: #00796b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.interest a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .interests-title {
+    font-size: 2rem;
+  }
+
+  .interests-description {
+    font-size: 1rem;
+  }
+
+  .interest {
+    flex: 1 1 100%;
+  }
+}

@@ -1,0 +1,123 @@
+import React from 'react';
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
+import './MySkills.css'; // Import the CSS file for styling
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJs, faReact, faPython, faJava, faHtml5, faNodeJs, faVuejs, faDocker, faJenkins } from '@fortawesome/free-brands-svg-icons';
+import { faRocket, faDatabase, faVideo, faCamera, faPen, faStar, faBook, faMicrochip } from '@fortawesome/free-solid-svg-icons';
+
+const MySkills = () => {
+  return (
+    <div className="skills-page-container">
+      <Navbar />
+      <div className="skills-content">
+        <h1 className="skills-title">My Skills</h1>
+        <p className="skills-description">
+          Over the course of my career, I have acquired a diverse range of skills across programming, development, leadership, and creative fields. Here is a comprehensive list of my technical and soft skills:
+        </p>
+        
+        <div className="skills-sections">
+          {/* Early Programming Languages */}
+          <div className="skill-section">
+            <h2>Programming Languages</h2>
+            <div className="skill-list">
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faJava} className="skill-icon" />
+                <h3>Java</h3>
+                <p>Strong background in Java for backend services and Android app development.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faPython} className="skill-icon" />
+                <h3>Python</h3>
+                <p>Extensive experience in Python for web development, machine learning, and data analysis.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faJs} className="skill-icon" />
+                <h3>JavaScript</h3>
+                <p>Expert in modern JavaScript, including ES6+ features for both front-end and back-end development.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faReact} className="skill-icon" />
+                <h3>React</h3>
+                <p>Proficient in building dynamic, fast, and responsive web applications using React and related libraries.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faHtml5} className="skill-icon" />
+                <h3>HTML & CSS</h3>
+                <p>Expert in crafting clean and responsive UIs using HTML5 and modern CSS techniques like Flexbox and Grid.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faNodeJs} className="skill-icon" />
+                <h3>Node.js</h3>
+                <p>Experience in developing scalable server-side applications using Node.js and Express.js.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faDatabase} className="skill-icon" />
+                <h3>SQL & NoSQL</h3>
+                <p>Proficient in working with databases such as MySQL, MongoDB, and PostgreSQL for efficient data storage.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faVuejs} className="skill-icon" />
+                <h3>Vue.js</h3>
+                <p>Proficient in building modern web applications using Vue.js framework.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faDocker} className="skill-icon" />
+                <h3>Docker</h3>
+                <p>Skilled in containerization and deploying applications using Docker.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faJenkins} className="skill-icon" />
+                <h3>Jenkins</h3>
+                <p>Experience with Jenkins for continuous integration and continuous deployment (CI/CD).</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faBook} className="skill-icon" />
+                <h3>Books & Publications</h3>
+                <p>Authored commercial books and writings in Java and other programming languages.</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Backend and DevOps */}
+          <div className="skill-section">
+            <h2>Backend Development & DevOps</h2>
+            <ul>
+              <li><FontAwesomeIcon icon={faNodeJs} className="skill-icon" /> Node.js</li>
+              <li><FontAwesomeIcon icon={faDatabase} className="skill-icon" /> SQL & NoSQL Databases (MySQL, MongoDB)</li>
+              <li><FontAwesomeIcon icon={faRocket} className="skill-icon" /> API Development & RESTful Services</li>
+              <li><FontAwesomeIcon icon={faDocker} className="skill-icon" /> Docker</li>
+              <li><FontAwesomeIcon icon={faJenkins} className="skill-icon" /> Jenkins</li>
+            </ul>
+          </div>
+
+          {/* Creative & Soft Skills */}
+          <div className="skill-section">
+            <h2>Creative Skills</h2>
+            <ul>
+              <li><FontAwesomeIcon icon={faVideo} className="skill-icon" /> Filmmaking & Video Editing</li>
+              <li><FontAwesomeIcon icon={faCamera} className="skill-icon" /> Photography</li>
+              <li><FontAwesomeIcon icon={faPen} className="skill-icon" /> Content Creation</li>
+              <li><FontAwesomeIcon icon={faStar} className="skill-icon" /> Storyboarding & Directing</li>
+            </ul>
+          </div>
+
+          {/* Soft Skills */}
+          <div className="skill-section">
+            <h2>Soft Skills & Leadership</h2>
+            <ul>
+              <li><FontAwesomeIcon icon={faRocket} className="skill-icon" /> Motivational Speaking</li>
+              <li><FontAwesomeIcon icon={faMicrochip} className="skill-icon" /> Startup Evangelism</li>
+              <li><FontAwesomeIcon icon={faStar} className="skill-icon" /> Leadership & Team Building</li>
+              <li><FontAwesomeIcon icon={faStar} className="skill-icon" /> Project Management</li>
+              <li><FontAwesomeIcon icon={faStar} className="skill-icon" /> Problem Solving & Critical Thinking</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default MySkills;

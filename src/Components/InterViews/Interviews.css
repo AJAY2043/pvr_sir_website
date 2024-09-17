@@ -1,0 +1,66 @@
+.interviews-container {
+    padding: 40px 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); 
+    color: white;
+    text-align: center;
+  }
+  
+  .interviews-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .video-icon {
+    font-size: 1.5rem;
+    color: #ffdd57; 
+  }
+  
+  .interviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .video-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .video-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .video-frame {
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+  
+  @media (max-width: 768px) {
+    .video-frame {
+      height: 180px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .video-frame {
+      height: 150px;
+    }
+  
+    .interviews-title {
+      font-size: 1.5rem;
+    }
+  
+    .video-icon {
+      font-size: 1.2rem;
+    }
+  }
+  

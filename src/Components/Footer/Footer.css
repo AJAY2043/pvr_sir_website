@@ -1,0 +1,104 @@
+/* General Footer Styling */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo h2 {
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #ffeb3b; /* Accent color */
+}
+
+.footer-logo p {
+  margin-top: 5px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #ccc;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffeb3b;
+}
+
+/* Social Media Section */
+.footer-social h4 {
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffeb3b;
+}
+
+.footer-social a {
+  color: #fff;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #ffeb3b;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer-logo p {
+    font-size: 0.9rem;
+  }
+
+  .footer-links a {
+    font-size: 0.9rem;
+  }
+  
+  .social-icon {
+    font-size: 1.2rem;
+  }
+}
