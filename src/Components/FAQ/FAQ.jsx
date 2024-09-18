@@ -15,7 +15,7 @@ const FAQ = () => {
     },
     {
       question: "How can I get in touch with you?",
-      answer: "You can contact us through our PVR Academy or send us an email at support@example.com."
+      answer: "You can contact us through our PVR Academy or send us an email at pvrcodingacademy.hyd@gmail.com."
     },
     {
       question: "What are your business hours?",

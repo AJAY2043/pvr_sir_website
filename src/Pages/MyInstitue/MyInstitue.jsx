@@ -38,7 +38,7 @@ const MyInstitute = () => {
             <p>
               For inquiries about our courses or any other questions, please reach out to us at:
               <br />
-              <a href="mailto:info@pvracademy.com" className="contact-email">info@pvracademy.com</a>
+              <a href="pvrcodingacademy.hyd@gmail.com" className="contact-email">pvrcodingacademy.hyd@gmail.com</a>
             </p>
           </div>
         </div>

@@ -19,14 +19,14 @@ const Interviews = () => {
       <div className="interviews-grid">
         {videos.map((video, index) => (
           <div className="video-card" key={index}>
-            <iframe
-              className="video-frame"
-              src={video}
-              title={`Interview ${index + 1}`}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              frameBorder="0"
-            ></iframe>
+           <iframe
+            className="video-frame"
+            src={`${video}?autoplay=0`}
+            title={`Interview ${index + 1}`}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            frameBorder="0">
+            </iframe>
           </div>
         ))}
       </div>
