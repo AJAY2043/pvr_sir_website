@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
-import './CollabrateWithMe.css'; // Import the CSS file for styling
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Font Awesome for icons
-import { faEnvelope, faPhoneAlt, faHandshake } from '@fortawesome/free-solid-svg-icons';
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
+import './CollabrateWithMe.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faPhoneAlt, faHandshake } from '@fortawesome/free-solid-svg-icons'
 
 const CollabrateWithPVR = () => {
   return (

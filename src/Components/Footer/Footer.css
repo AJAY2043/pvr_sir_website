@@ -1,4 +1,3 @@
-/* General Footer Styling */
 .footer {
   background-color: #222;
   color: #fff;
@@ -17,7 +16,7 @@
   font-size: 2rem;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  color: #ffeb3b; /* Accent color */
+  color: #ffeb3b;
 }
 
 .footer-logo p {
@@ -44,7 +43,6 @@
   color: #ffeb3b;
 }
 
-/* Social Media Section */
 .footer-social h4 {
   margin-bottom: 10px;
   font-family: 'Poppins', sans-serif;
@@ -65,7 +63,6 @@
   font-size: 1.5rem;
 }
 
-/* Footer Bottom */
 .footer-bottom {
   margin-top: 20px;
   font-family: 'Poppins', sans-serif;

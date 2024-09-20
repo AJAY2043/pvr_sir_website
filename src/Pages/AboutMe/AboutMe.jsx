@@ -1,9 +1,9 @@
-import React from 'react';
-import Navbar from '../../Components/Navbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
-import './AboutMe.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faLaptopCode, faChalkboardTeacher, faFilm, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
+import React from 'react'
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
+import './AboutMe.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBook, faLaptopCode, faChalkboardTeacher, faFilm, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 
 const AboutMe = () => {
   return (

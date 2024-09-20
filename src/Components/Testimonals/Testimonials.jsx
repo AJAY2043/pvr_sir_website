@@ -1,5 +1,5 @@
-import React from 'react';
-import './Testimonals.css'; // Ensure this path is correct
+import React from 'react'
+import './Testimonals.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserTie, faUser, faUserNinja } from '@fortawesome/free-solid-svg-icons';
@@ -13,7 +13,7 @@ const testimonials = [
     testimonial: 'An excellent platform with seamless features. It truly helped improve my productivity.',
     rating: 4,
     icon: faUserTie,
-    // image: 'https://via.placeholder.com/100'
+    
   },
   {
     name: 'Vamsi Krishna',
@@ -21,7 +21,7 @@ const testimonials = [
     testimonial: 'Fantastic experience! The customer support was outstanding and the features are top-notch.',
     rating: 5,
     icon: faUser,
-    // image: 'https://via.placeholder.com/100'
+    
   },
   {
     name: 'Trivikram',
@@ -29,7 +29,7 @@ const testimonials = [
     testimonial: 'I’m very impressed with the ease of use and the powerful features. Highly recommend!',
     rating: 3,
     icon: faUserNinja,
-    // image: 'https://via.placeholder.com/100'
+    
   }
 ];
 
@@ -52,7 +52,7 @@ const Testimonials = () => {
       <div className="testimonials-list">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial-card">
-            {/* <img src={testimonial.image} alt={testimonial.name} className="testimonial-image" /> */}
+            
             <div className="testimonial-details">
               <FontAwesomeIcon icon={testimonial.icon} className="testimonial-icon" aria-hidden="true" />
               <h3 className="testimonial-name">{testimonial.name}, {testimonial.role}</h3>

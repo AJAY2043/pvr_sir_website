@@ -1,10 +1,10 @@
-import React from 'react';
-import Navbar from '../../Components/Navbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
-import './MySkills.css'; // Import the CSS file for styling
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faReact, faPython, faJava, faHtml5, faNodeJs, faVuejs, faDocker, faJenkins } from '@fortawesome/free-brands-svg-icons';
-import { faRocket, faDatabase, faVideo, faCamera, faPen, faStar, faBook, faMicrochip, faCode } from '@fortawesome/free-solid-svg-icons';
+import React from 'react'
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
+import './MySkills.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faJs, faReact, faPython, faJava, faHtml5, faNodeJs, faVuejs, faDocker, faJenkins } from '@fortawesome/free-brands-svg-icons'
+import { faRocket, faDatabase, faVideo, faCamera, faPen, faStar, faBook, faMicrochip, faCode } from '@fortawesome/free-solid-svg-icons'
 
 const MySkills = () => {
   return (
@@ -17,7 +17,7 @@ const MySkills = () => {
         </p>
 
         <div className="skills-sections">
-          {/* Early Programming Languages */}
+    
           <div className="skill-section">
             <h2>Programming Languages</h2>
             <div className="skill-list">
@@ -110,7 +110,7 @@ const MySkills = () => {
           </div>
           <button className="skill-card">Some More...</button>
 
-          {/* Backend and DevOps */}
+        
           <div className="skill-section">
             <h2>Backend Development & DevOps</h2>
             <ul>
@@ -122,7 +122,7 @@ const MySkills = () => {
             </ul>
           </div>
 
-          {/* Creative & Soft Skills */}
+      
           <div className="skill-section">
             <h2>Creative Skills</h2>
             <ul>
@@ -133,7 +133,7 @@ const MySkills = () => {
             </ul>
           </div>
 
-          {/* Soft Skills */}
+        
           <div className="skill-section">
             <h2>Soft Skills & Leadership</h2>
             <ul>

@@ -1,8 +1,8 @@
-import React from 'react';
-import Navbar from '../../Components/Navbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
-import './MyStartups.css';
-import { FaCode, FaGraduationCap, FaCogs, FaExclamationTriangle } from 'react-icons/fa'; // Import Font Awesome icons
+import React from 'react'
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
+import './MyStartups.css'
+import { FaCode, FaGraduationCap, FaCogs, FaExclamationTriangle } from 'react-icons/fa'
 
 const MyStartups = () => {
   return (

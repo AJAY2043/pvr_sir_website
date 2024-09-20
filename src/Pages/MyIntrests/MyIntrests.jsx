@@ -1,8 +1,8 @@
-import React from 'react';
-import Navbar from '../../Components/Navbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
-import './MyIntrests.css'; // Import the CSS file for styling
-import { FaBook, FaBusinessTime, FaChalkboardTeacher, FaMicrophone, FaFilm, FaHandshake, FaRss } from 'react-icons/fa'; // Import Font Awesome icons
+import React from 'react'
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
+import './MyIntrests.css'
+import { FaBook, FaBusinessTime, FaChalkboardTeacher, FaMicrophone, FaFilm, FaHandshake, FaRss } from 'react-icons/fa'
 
 const MyInterests = () => {
   return (

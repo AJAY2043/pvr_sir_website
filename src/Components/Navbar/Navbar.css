@@ -65,7 +65,7 @@
   transform: scale(1.05);
 }
 
-/* Media queries for responsiveness */
+
 @media (min-width: 768px) {
   .navbar {
     padding: 10px 40px;
