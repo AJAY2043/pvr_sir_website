@@ -10,7 +10,7 @@ const CollabrateWithPVR = () => {
     <div className="collaborate-container">
       <Navbar />
       <div className="collaborate-content">
-        <h1>Collaborate with PVR</h1>
+        <h1>Collaborate with Me(your pvr)</h1>
         <p className="intro-text">
           Welcome to my platform! I’m <strong>PVR</strong>, a passionate software developer and educator with a strong background in IT technologies and mentorship. If you have an innovative project, idea, or business that requires technical expertise, I’m excited to collaborate with you!
         </p>

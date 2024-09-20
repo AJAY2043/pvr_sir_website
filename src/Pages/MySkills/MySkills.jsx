@@ -4,7 +4,7 @@ import Footer from '../../Components/Footer/Footer';
 import './MySkills.css'; // Import the CSS file for styling
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs, faReact, faPython, faJava, faHtml5, faNodeJs, faVuejs, faDocker, faJenkins } from '@fortawesome/free-brands-svg-icons';
-import { faRocket, faDatabase, faVideo, faCamera, faPen, faStar, faBook, faMicrochip } from '@fortawesome/free-solid-svg-icons';
+import { faRocket, faDatabase, faVideo, faCamera, faPen, faStar, faBook, faMicrochip, faCode } from '@fortawesome/free-solid-svg-icons';
 
 const MySkills = () => {
   return (
@@ -15,12 +15,42 @@ const MySkills = () => {
         <p className="skills-description">
           Over the course of my career, I have acquired a diverse range of skills across programming, development, leadership, and creative fields. Here is a comprehensive list of my technical and soft skills:
         </p>
-        
+
         <div className="skills-sections">
           {/* Early Programming Languages */}
           <div className="skill-section">
             <h2>Programming Languages</h2>
             <div className="skill-list">
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faCode} className="skill-icon" />
+                <h3>C</h3>
+                <p>Strong foundational knowledge in C, used for system programming and embedded systems.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faCode} className="skill-icon" />
+                <h3>C++</h3>
+                <p>Experienced in C++ for object-oriented programming, game development, and high-performance applications.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faCode} className="skill-icon" />
+                <h3>C#</h3>
+                <p>Proficient in C# for building Windows applications, games with Unity, and enterprise software solutions.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faCode} className="skill-icon" />
+                <h3>Cobol</h3>
+                <p>Experienced in COBOL, primarily used in legacy business applications and mainframes.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faCode} className="skill-icon" />
+                <h3>Pascal</h3>
+                <p>Background in Pascal, used for structured programming and early software development education.</p>
+              </div>
+              <div className="skill-card">
+                <FontAwesomeIcon icon={faCode} className="skill-icon" />
+                <h3>Fortran</h3>
+                <p>Knowledgeable in Fortran, especially used in scientific and engineering calculations.</p>
+              </div>
               <div className="skill-card">
                 <FontAwesomeIcon icon={faJava} className="skill-icon" />
                 <h3>Java</h3>
@@ -78,7 +108,8 @@ const MySkills = () => {
               </div>
             </div>
           </div>
-          
+          <button className="skill-card">Some More...</button>
+
           {/* Backend and DevOps */}
           <div className="skill-section">
             <h2>Backend Development & DevOps</h2>

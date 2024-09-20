@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faReact, faPython, faJava, faHtml5, faNodeJs } from '@fortawesome/free-brands-svg-icons';
+import { faJs, faReact, faPython, faJava, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faVideo, faRocket, faDatabase } from '@fortawesome/free-solid-svg-icons';
 import './Skills.css';
 import { Link } from 'react-router-dom';
@@ -39,11 +39,7 @@ const Skills = () => {
           <h3>HTML & CSS</h3>
           <p>Expert in crafting clean and responsive UIs using HTML5 and modern CSS techniques like Flexbox and Grid.</p>
         </div>
-        <div className="skill-card">
-          <FontAwesomeIcon icon={faNodeJs} className="skill-icon" aria-label="Node.js" />
-          <h3>Node.js</h3>
-          <p>Experience in developing scalable server-side applications using Node.js and Express.js.</p>
-        </div>
+        
         <div className="skill-card">
           <FontAwesomeIcon icon={faDatabase} className="skill-icon" aria-label="SQL & NoSQL" />
           <h3>SQL & NoSQL</h3>

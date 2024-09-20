@@ -11,6 +11,7 @@ const MyInstitute = () => {
         <h1 className="institute-title">Welcome to PVR Coding Academy</h1>
         <p className="institute-description">
           At PVR Coding Academy, we are committed to delivering high-quality education and training in the realm of software development and technology. Our comprehensive courses and training programs are designed to equip you with the skills needed to excel in the ever-evolving tech industry.
+          check out here : <a href="https://www.pvrcodingacademy.com" rel="noopener noreferrer">check out here : https://www.pvrcodingacademy.com</a>
         </p>
         <div className="institute-details">
           <div className="detail">
