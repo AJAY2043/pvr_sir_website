@@ -1,0 +1,252 @@
+{
+    "experience": [
+      {
+        "title": "Computer Lab Assistant",
+        "organization": "NIIT Limited",
+        "employment_type": "Part-time",
+        "location": "Vijayawada, Andhra Pradesh, India",
+        "start_date": "Jun 1990",
+        "end_date": "May 1992",
+        "duration": "2 years"
+      },
+      {
+        "title": "Lab Programmer",
+        "organization": "LCC Lakhotia Computer Center",
+        "location": "Vijayawada, Andhra Pradesh, India",
+        "start_date": "Jun 1992",
+        "end_date": "Dec 1993",
+        "duration": "1 year 7 months"
+      },
+      {
+        "title": "Information Technology Trainer",
+        "organization": "ICS",
+        "employment_type": "Part-time",
+        "location": "Vijayawada, Andhra Pradesh, India",
+        "start_date": "Jan 1994",
+        "end_date": "Dec 1994",
+        "duration": "1 year",
+        "skills": [
+          "Ada Programming , ",
+          "ALGOL"
+        ]
+      },
+      {
+        "title": "Freelance Programmer",
+        "organization": "Alankar Theatre",
+        "location": "Vijayawada, Andhra Pradesh, India",
+        "start_date": "Jan 1995",
+        "end_date": "Jun 1995",
+        "duration": "6 months",
+        "skills": [
+          "COBOL , ",
+          "Foxbase+"
+        ]
+      },
+      {
+        "title": "Freelance Programmer",
+        "organization": "Kaveri Seed Company Limited",
+        "employment_type": "Self-employed",
+        "location": "Hyderabad, Telangana, India",
+        "start_date": "Jul 1995",
+        "end_date": "Dec 1995",
+        "duration": "6 months",
+        "skills": [
+          "Visual BASIC , ",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Freelance Software Engineer",
+        "organization": "Self-employed",
+        "location": "Remote",
+        "start_date": "Jan 1996",
+        "end_date": "Jun 1996",
+        "duration": "6 months",
+        "skills": [
+          "PowerBuilder"
+        ]
+      },
+      {
+        "title": "Freelance Developer",
+        "organization": "Vijay Packaging System",
+        "employment_type": "Part-time",
+        "location": "Hyderabad, Telangana, India",
+        "start_date": "Jul 1996",
+        "end_date": "Dec 1996",
+        "duration": "6 months",
+        "skills": [
+          "Data Structures , ",
+          "CORBA"
+        ]
+      },
+      {
+        "title": "Co-Founder and CEO",
+        "organization": "PACE - ATC Computer Training Centers",
+        "location": "East Godavari District, Andhra Pradesh, India",
+        "start_date": "Jan 1996",
+        "end_date": "May 1997",
+        "duration": "1 year 5 months",
+        "skills": [
+          "Coaching & Mentoring , ",
+          "Motivational Speaking , ",
+          "Leadership"
+        ]
+      },
+      {
+        "title": "Assistant Professor",
+        "organization": "MAM & MVN Degree & PG College",
+        "location": "Mancherial, Telangana, India",
+        "start_date": "Jun 1997",
+        "end_date": "May 1999",
+        "duration": "2 years",
+        "department": "Comp.Sc. & MCA",
+        "skills": [
+          "Data Structures , ",
+          "CORBA"
+        ]
+      },
+      {
+        "title": "Software Developer cum Trainer",
+        "organization": "PACE Software Training Center",
+        "employment_type": "Part-time",
+        "location": "Mancherial, Telangana, India",
+        "start_date": "Jun 1998",
+        "end_date": "May 1999",
+        "duration": "1 year"
+      },
+      {
+        "title": "Lecturer",
+        "organization": "Kranthi Women's Degree College",
+        "employment_type": "Part-time",
+        "location": "Hyderabad, Telangana, India",
+        "start_date": "Jun 1999",
+        "end_date": "May 2000",
+        "duration": "1 year",
+        "skills": [
+          "Visual Basic , ",
+          "Data Structures"
+        ]
+      },
+      {
+        "title": "HOD - Dept of BCA & IT",
+        "organization": "Shivakrishna Degree College",
+        "location": "GodavariKhani, Karimnagar Dist, Telangana, India",
+        "start_date": "Jun 2000",
+        "end_date": "May 2001",
+        "duration": "1 year",
+        "skills": [
+          "Data Structures , ",
+          "Leadership"
+        ]
+      },
+      {
+        "title": "HOD - Dept of IT",
+        "organization": "Sree Chaitanya Degree & PG College",
+        "location": "Karimnagar, Telangana, India",
+        "start_date": "Jun 2001",
+        "end_date": "May 2008",
+        "duration": "7 years",
+        "skills": [
+          "Visual Basic , ",
+          "Enterprise JavaBeans (EJB)"
+        ]
+      },
+      {
+        "title": "Vice Principal",
+        "organization": "Vanisri Degree College",
+        "location": "Karimnagar, Telangana, India",
+        "start_date": "Jun 2008",
+        "end_date": "Aug 2009",
+        "duration": "1 year 3 months",
+        "skills": [
+          "Leadership"
+        ]
+      },
+      {
+        "title": "Associate Professor & Head",
+        "organization": "Vageswari College of Engineering",
+        "location": "Karimnagar, Telangana, India",
+        "start_date": "Sep 2009",
+        "end_date": "Aug 2016",
+        "duration": "7 years",
+        "department": "CSE & MCA",
+        "skills": [
+          "Data Structures , ",
+          "Leadership"
+        ]
+      },
+      {
+        "title": "Trainer - Full Stack Course Java",
+        "organization": "Naresh i Technologies",
+        "employment_type": "Part-time",
+        "location": "Hyderabad, Telangana, India",
+        "start_date": "Jan 2018",
+        "end_date": "Jun 2018",
+        "duration": "6 months"
+      },
+      {
+        "title": "Manager - Java Team (Tech Support)",
+        "organization": "AJR Info Systems Pvt. Ltd",
+        "location": "Hyderabad, Telangana, India",
+        "start_date": "Sep 2016",
+        "end_date": "Aug 2020",
+        "duration": "4 years",
+        "skills": [
+          "Leadership"
+        ]
+      },
+      {
+        "title": "Corp Trainer - Full Stack Java Development",
+        "organization": "Kosmiktechnologies PVT LTD",
+        "employment_type": "Part-time",
+        "location": "Hyderabad, Telangana, India",
+        "start_date": "Jun 2018",
+        "end_date": "May 2021",
+        "duration": "3 years",
+        "skills": [
+          "C# , ",
+          ".NET Framework , ",
+          "ASP.NET"
+        ]
+      },
+      {
+        "title": "Working Partner",
+        "organization": "V Cube Software Solutions Pvt. Ltd.",
+        "location": "Hyderabad, Telangana, India",
+        "start_date": "Jan 2022",
+        "end_date": "May 2024",
+        "duration": "2 Years 5 Months",
+        "skills": [
+          "Entrepreneurship , ",
+          "Leadership , ",
+          "Java Full Stack"
+        ]
+      },
+      {
+        "title": "Founder-Chairman-CEO",
+        "organization": "Telsta Software Soulutions Pvt.Ltd",
+        "location": "Hyderabad, Telangana, India",
+        "start_date": "Jan 2023",
+        "status": "Present",
+        "skills": [
+          "Advertising , ",
+         "Entrepreneurship ,",
+          "Leadership"
+        ]
+      },
+      {
+        "title": "Founder & Lead Instructor",
+        "organization": "PVR Coding Academy",
+        "location": "JNTU Metro, KPHB, Hyderabad, Telangana, India",
+        "start_date": "Aug 2024",
+        "status": "Present",
+        "employment_type": "Full-time",
+        "skills": [
+          "Java ,",
+          "Python ",
+          "Full Stack Development"
+        ]
+      }
+    ]
+  }
+  

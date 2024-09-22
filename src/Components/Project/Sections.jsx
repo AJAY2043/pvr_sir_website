@@ -11,12 +11,16 @@ import FAQ from '../FAQ/FAQ'
 import CTA from '../CTA/CTA'
 import Newsletter from '../NewsLetter/NewsLetter'
 import Interviews from '../InterViews/Interviews'
+import MyJourney from '../MyJourney/MyJourney'
+import Carousal from '../Carousal/Carousal'
 
 const Sections = () => {
   return (
     <div>
       <Hero/>
-      <About/>
+      <About/> 
+      <Carousal/> 
+      <MyJourney/>
       <Blog/>
       <Interviews/>
       <Skills/>

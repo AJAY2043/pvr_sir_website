@@ -63,7 +63,18 @@
 .startup a:hover {
   text-decoration: underline;
 }
+.institute-video {
+  margin-top: 40px;
+  text-align: center;
+}
 
+.institute-video iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border: none;
+  border-radius: 8px;
+}
 @media (max-width: 768px) {
   .startups-title {
     font-size: 2rem;

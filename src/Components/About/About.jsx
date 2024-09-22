@@ -10,10 +10,10 @@ const About = () => {
         <div className="about-text">
           <h2>About Your <strong>PVR</strong></h2>
           <p>
-            Meet Your <strong>PVR</strong>, a highly experienced educator and software expert with over <strong>30 years</strong> in the field. Starting My career as a teacher in several cities across Andhra Pradesh and Telangana, I had since become a leading figure in software education and entrepreneurship.
+            Meet Your <strong>PVR</strong>, a highly experienced educator and software expert with over <strong>30+ years</strong> in the field. Starting My career as a teacher in several cities across Andhra Pradesh and Telangana, I had since become a leading figure in software education and entrepreneurship.
           </p>
           <p>
-            I co-founded a successful software institute in Hyderabad, where My leadership played a crucial role in its growth. Now, I (PVR) runs My own ventures, including <strong>PVR Academy</strong> and <strong>Telesta Software Solutions</strong>, empowering students and professionals with industry-leading software skills.
+            I co-founded a successful software institute in Hyderabad, where My leadership played a crucial role in its growth. Now, I (PVR) runs My own ventures, including <strong>PVR Academy</strong> and <strong>Telsta Software Solutions</strong>, empowering students and professionals with industry-leading software skills.
           </p>
           <div className="skills-icons">
             <div className="skill">

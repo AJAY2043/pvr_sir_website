@@ -1,4 +1,3 @@
-/* Container for the hero section */
 .hero {
   display: flex;
   flex-direction: column;
@@ -6,37 +5,33 @@
   align-items: center;
   padding: 50px 20px;
   position: relative;
-  background-color: #f5f5f5; /* Light background for the outer section */
+  background-color: #f0f0f0; 
+  overflow: hidden; 
 }
-
-/* Hero Image inside a box */
 .hero-image-box {
-  width: 80%;
-  max-width: 900px;
-  background-color: #fff; /* Box with background color around the image */
-  padding: 20px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for box effect */
-  margin-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fff;
+  padding: 0;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .hero-image {
   width: 100%;
+  transition: opacity 1s ease-in-out;
   border-radius: 10px;
 }
-
-/* Overlay effect for darkening the text background */
 .hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
 }
-
-/* Main hero text */
 .hero-text {
   position: relative;
   z-index: 2;
@@ -57,29 +52,27 @@
   color: #555;
   font-family: 'Poppins', sans-serif;
 }
-
-/* Text above the hero image (tagline) */
 .hero-text-above {
-  position: relative;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
   color: #fff;
   font-family: 'Poppins', sans-serif;
-  margin-bottom: 10px;
+  z-index: 1;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 .hero-text-above h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 0;
-  animation: fadeIn 1.5s ease-in-out;
 }
 
 .hero-text-above p {
   font-size: 1.2rem;
   margin-top: 5px;
-  animation: fadeIn 2s ease-in-out;
 }
-
-/* Fade-in animation for text */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -97,9 +90,6 @@
   .hero-text p {
     font-size: 1rem;
   }
-  .hero-image-box {
-    width: 90%;
-  }
 }
 
 @media (max-width: 480px) {
@@ -109,7 +99,7 @@
   .hero-text p {
     font-size: 0.9rem;
   }
-  .hero-image-box {
-    width: 95%;
+  .hero-text-above h2 {
+    font-size: 2rem;
   }
 }

@@ -8,31 +8,26 @@ const posts = [
   {
     title: 'Mastering Java: From Basics to Advanced Concepts',
     excerpt: 'Learn the core fundamentals of Java, object-oriented programming, and advanced features that make it a powerful language.',
-    link: '#',
-    icon: faCode
+       icon: faCode
   },
   {
     title: 'Top 5 Java Frameworks You Should Know',
     excerpt: 'A guide to the most popular Java frameworks, including Spring, Hibernate, and how to choose the right one for your project.',
-    link: '#',
     icon: faLaptopCode
   },
   {
     title: 'The Power of Mentorship in Software Development',
     excerpt: 'How mentorship from experienced developers can shape the careers of budding coders.',
-    link: '#',
     icon: faChalkboardTeacher
   },
   {
     title: 'Lifelong Learning as a Developer',
     excerpt: 'A story of how continuous learning keeps developers relevant in the fast-paced tech world.',
-    link: '#',
     icon: faBookOpen
   },
   {
     title: 'Mastering Full Stack Java Development',
     excerpt: 'Insights from 30 years of experience in mastering Java and teaching it to thousands of students.',
-    link: '#',
     icon: faGraduationCap
   }
 ];
@@ -51,7 +46,7 @@ const Blog = () => {
             <div className="blog-content">
               <h3 className="blog-title">{post.title}</h3>
               <p className="blog-excerpt">{post.excerpt}</p>
-              <a href={post.link} className="blog-link">Read More</a>
+              <a href='https://www.pvrcodingacademy.com/'className="blog-link">Read More</a>
             </div>
           </div>
         ))}

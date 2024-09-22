@@ -4,11 +4,13 @@ import Footer from '../../Components/Footer/Footer'
 import './CollabrateWithMe.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhoneAlt, faHandshake } from '@fortawesome/free-solid-svg-icons'
+import Carousal from '../../Components/Carousal/Carousal';
 
 const CollabrateWithPVR = () => {
   return (
     <div className="collaborate-container">
       <Navbar />
+      <Carousal/>
       <div className="collaborate-content">
         <h1>Collaborate with Me(your pvr)</h1>
         <p className="intro-text">
