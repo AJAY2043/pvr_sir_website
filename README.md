@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="./assets/banner.png" alt="PVR World — personal brand site for a software educator and startup mentor" width="100%" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-0A1024?style=flat-square&logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router-0A1024?style=flat-square&logo=reactrouter&logoColor=CA4245)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-0A1024?style=flat-square&logo=bootstrap&logoColor=7952B3)
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-0A1024?style=flat-square&logo=fontawesome&logoColor=538DD7)
+![Status](https://img.shields.io/badge/client_project-delivered-22D3EE?style=flat-square&labelColor=0A1024)
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Personal-brand website built for a **software educator, full-stack trainer and startup mentor** — "PVR World", tagline *Empowering the Next Generation of Coders*.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The brief was a site that works as a credibility page for several audiences at once: students deciding whether to enrol, companies considering a collaboration, and founders looking for a mentor. So rather than one long scroll, each audience gets a page.
 
-### `npm test`
+## Preview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![PVR World landing page](./assets/preview-home.jpg)
 
-### `npm run build`
+<sub>Screenshot captured from a local production build of this repository.</sub>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Nine routes**, each aimed at a different visitor:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  | Route | For |
+  |---|---|
+  | `/` | Landing page composing every section |
+  | `/aboutme` | Background and credentials |
+  | `/myskills` | Java, Python and full-stack teaching areas |
+  | `/myinstitute` | The training institute |
+  | `/mystartups` | Ventures and startup involvement |
+  | `/myinterests` | Personal interests |
+  | `/collabratewithme` | Collaboration enquiries |
+  | `/blog` | Writing |
+  | `/contact` | Contact |
 
-### `npm run eject`
+- **Landing page** composing hero, about, skills, journey, projects, interviews, testimonials, FAQ, blog and newsletter in one scroll
+- **Carousel** section for featured content
+- **Testimonials and user stories** from students
+- **Newsletter sign-up** form
+- **Responsive layout** throughout
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Layer | Technology |
+|---|---|
+| Framework | React (Create React App) |
+| Routing | React Router DOM — 9 routes |
+| Styling | Bootstrap CSS plus hand-written component CSS |
+| Icons | Font Awesome, React Icons |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+├── Components/
+│   ├── Project/        LandingPage composition
+│   ├── Hero/, About/, Skills/, MyJourney/, Projects/
+│   ├── InterViews/, Testimonals/, UserStories/
+│   ├── Carousal/, CTA/, FAQ/, Blog/, NewsLetter/
+│   ├── Navbar/, Footer/, Contact/
+│   └── Assets/
+├── Pages/              AboutMe, MySkills, MyInstitue, MyStartups,
+│                       MyIntrests, Collabrate
+└── App.js              9 route definitions
+```
 
-## Learn More
+## Running locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/AJAY2043/pvr_sir_website.git
+cd pvr_sir_website
+npm install
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run build     # production build into ./build
+```
 
-### Code Splitting
+## Future improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Wire the newsletter form to a real service.** `NewsLetter.jsx` has the submit handler stubbed with a commented-out `axios.post('/api/subscribe')` — it currently does nothing. EmailJS or a form endpoint would make it work without a backend.
+- **Fix the spelling of the route and folder names** — `collabratewithme`, `MyIntrests`, `Testimonals`, `Carousal`. Worth doing in one pass, with redirects if the old URLs are live.
+- Add meta tags and an Open Graph image so shared links preview properly
+- Add a 404 route
+- Remove unused dependencies — `axios` and `react-bootstrap` are declared but effectively unused
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Ajay Krishna Reddy Bhavanam** — Melbourne, Australia
+[LinkedIn](https://linkedin.com/in/ajay-krishna-reddy) · [GitHub](https://github.com/AJAY2043)
